@@ -134,7 +134,8 @@ h2+h5:after{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background-color: #10162B;
+	/* background-color: #10162B; */
+	background-image: linear-gradient(#10162B,#1F2538 100%);
 }
 .banner .keyvisual img{
 	width: 100%;
@@ -143,7 +144,7 @@ h2+h5:after{
 
 /* content 目次 */
 .content{
-	background-image: linear-gradient(#10162B,#eee);
+	background-image: linear-gradient(#1F2538 0%,#eee);
 }
 .content .title-txt{
 	display: flex;
