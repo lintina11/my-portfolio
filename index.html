@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>林睦庭-作品集首頁</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>首頁</title>
     <link rel="stylesheet" href="css/all.min.css" >
-    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header選單 -->
-    <header class="header">
-        <div class="container">
+    <header class="header" id="portfolio_header">
+        <div class="container" >
             <a href="index.html" class="logo">
                 <img src="pic/logo.png " alt="logo"> 
             </a>
@@ -25,8 +25,18 @@
 
     <!-- banner --> 
     <div class="banner">
-        <div class="keyvisual">
-            <img src="pic/banner4.png" alt="keyvisual">
+        <div class="title">
+            <img src="pic/banner_main.png" alt="main">
+            <img src="pic/banner_portfolio.png" alt="portfolio">
+        </div>
+        <div class="deco_blue">
+            <img src="pic/banner_deco01.png" alt="">
+        </div>
+        <div class="deco_white">
+            <img src="pic/banner_deco02.png" alt="">
+        </div>
+        <div class="arrow">
+            <img src="pic/banner_arrow.png" alt="">
         </div>
     </div>
 
@@ -34,33 +44,23 @@
     <div class="content" id="content">
         <div class="title-txt">
             <h2>目次</h2>
-            <h5>目標多一點 隨時都有逐夢的感覺</h5>
+            <h5>嘗試不設限 用更多角度看事情</h5>
         </div>
         <div class="container">
             <a href="#template" class="item">
                 <p>1</p>
-                <h3>網頁切版</h3>
-                <h5>網頁切版作品 網站/原始碼</h5>
+                <h3>網頁設計</h3>
+                <h5>網頁視覺設計＋網頁切版</h5>
                 <ul class="txt">
-                    <li><span>01.</span>樂園聖誕檔期活動網站(RWD)</li>
-                    <li><span>02.</span>科技風格一頁式網站(RWD)</li>
-                    <li><span>03.</span>植栽課程宣傳一頁式網站(RWD)</li>
-                    <li><span>04.</span>網頁切版作品原始碼-GitHub</li>
+                    <li><span>01.</span>樂園聖誕節活動網站(RWD)</li>
+                    <li><span>02.</span>旅遊電子租書平台_讀步Do Book</li>
+                    <li><span>03.</span>茶飲專賣店官網_茶蔀 Cha bu</li>
+                    <li><span>04.</span>風格一頁式網站_城市的線條(RWD)</li>
                 </ul>
             </a>
-            <a href="#web-design" class="item">
-                <p>2</p>
-                <h3>網頁視覺設計</h3>
-                <h5>網頁切版作品 前期設計</h5>
-                <ul class="txt">
-                    <li><span>01.</span>科技風格一頁式網站(手機板畫面)</li>
-                    <li><span>02.</span>科技風格一頁式網站(桌機板畫面)</li>
-                    <li><span>03.</span>植栽課程宣傳一頁式網站(手機板畫面)</li>
-                    <li><span>04.</span>植栽課程宣傳一頁式網站(桌機版畫面)</li>
-                </ul>
-            </a>
+            
             <a href="#graduation-project" class="item">
-                <P>3</P>
+                <P>2</P>
                <h3>畢業專題網站</h3>
                <h5>手作交流平台開發</h5>
                <ul class="txt">
@@ -69,6 +69,16 @@
                     <li><span>03.</span>實際畫面/Wire Frame</li>
                     <li><span>04.</span>作品網站記錄</li>
                     <li><span>05.</span>社群帳號經營</li>
+                </ul>
+            </a>
+
+            <a href="#graphic-design" class="item">
+                <p>3</p>
+                <h3>平面設計</h3>
+                <h5>企業識別與平面海報設計</h5>
+                <ul class="txt">
+                    <li><span>前半</span>企業識別/商標設計</li>
+                    <li><span>後半</span>平面海報/EDM設計</li>
                 </ul>
             </a>
             <a href="#activities-pr" class="item">
@@ -82,7 +92,8 @@
                     <li><span>04.</span>百人生態健走活動</li>
                     <li><span>05.</span>25周年年度系列活動</li>
                     <li><span>06.</span>螢光戶外演唱晚會</li>
-                    <li><span>07.</span>企業千人尾牙</li>
+                    <li><span>07.</span>時尚夜店慶功派對</li>
+                    <li><span>08.</span>企業千人尾牙</li>
                 </ul>
             </a>
             <a href="resume.html" class="item">
@@ -99,7 +110,7 @@
     </div>
 
 
-    <!-- 網頁切版 -->
+    <!-- 網頁設計 -->
     <div class="template" id="template">
         <div class="top-container">
             <div class="main-title">
@@ -113,264 +124,59 @@
                     <div class="icon">
                         <img src="pic/jquery.png" alt="">
                     </div>
+                    <div class="icon">
+                        <img src="pic/xd.png" alt="">
+                    </div>
                 </div>
                 <div class="title-txt">
-                    <h2>網頁切版</h2>
+                    <h2>網頁視覺設計與切版</h2>
                     <h5>縝密的語言  交織動人的故事 </h5>
                 </div>
                 <div class="txt">
                     <p>讓設計好的畫面擁有新生命 ! 透過一行行的HTML與CSS將畫面刻出來，也從中了解網頁設計與平面設計需注意的差異。切版時亦實際操作RWD，讓網頁在手機、平板、桌機等不同的媒介尺寸上擁有更適合的樣貌。</p>
                 </div>
             </div>
-            <div class="template-works">
-                <div class="column">
-                    <div class="column-left">
-                        <div class="item">
-                            <div class="btn-group">
-                                <a href="https://lintina11.github.io/web-Winter-Festival/" target="_blank">前往網站</a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="btn-group">
-                                <a href="https://lintina11.github.io/web-Planting-Studio/" target="_blank">前往網站</a>
-                                <a href="#work-num2">看設計稿</a>
-                            </div>
+            <div class="main-pic"></div>
+        </div>
+        <div class="template-works">
+            <div class="column">
+                <div class="column-left">
+                    <div class="item">
+                        <div class="btn-group">
+                            <a href="https://lintina11.github.io/web-Winter-Festival/" target="_blank">查看切版</a>
+                            <a href="https://www.behance.net/gallery/118498323/_" target="_blank">設計概念</a>
                         </div>
                     </div>
-                    <div class="column-right">
-                        <div class="item">
-                            <div class="btn-group" >
-                                <a href="https://lintina11.github.io/web-City-Style/" target="_blank">前往網站</a>
-                                <a href="#web-design">看設計稿</a>
-                            </div>
+                    <div class="item">
+                        <div class="btn-group">
+                            <a href="https://lintina11.github.io/chabu/" target="_blank">查看切版</a>
+                            <a href="https://www.behance.net/gallery/115409623/_" target="_blank">設計概念</a>
                         </div>
-                        <div class="item">
-                            <div class="btn-group">
-                                <a href="https://github.com/lintina11" target="_blank">我的GitHub</a>
-                            </div>
+                    </div>
+                    <div class=".item github-btn">
+                        <a href="https://github.com/lintina11" target="_blank">
+                            前往Git Hub
+                        </a>
+                    </div>
+                </div>
+                <div class="column-right">
+                    <div class="item">
+                        <div class="btn-group" >
+                            <a href="https://www.behance.net/gallery/116870605/__-Do-Book" target="_blank">查看切版</a>
+                            <a href="#" target="_blank">設計概念</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="btn-group" >
+                            <a href="https://lintina11.github.io/web-City-Style/" target="_blank">查看切版</a>
+                            <a href="https://www.behance.net/gallery/118498323/_" target="_blank">設計概念</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div> 
-    
-    <!-- 網頁視覺設計 -->
-    <div class="web-design" id="web-design">
-        <div class="top-container">
-            <div class="main-title">
-                <div class="icon-group">
-                    <div class="icon">
-                        <img src="pic/xd.png" alt="">
-                    </div>
-                </div>
-                <div class="title-txt">
-                    <h2>網頁視覺設計</h2>
-                    <h5>讓資訊的傳遞 不失人情味</h5>
-                </div>
-                <div class="txt">
-                    <h6>01.科技風格一頁式網站(手機板畫面)</h6>
-                    <p>選定城市與科技風格主視覺後，依照整體氛圍再延伸整體網站風格與佈局。 各區塊以極細框線點綴，仿造現代都市生活般井然有序，亦如攝影機的框線聚焦城市中的小確幸。</p>
-                    <table>
-                        <th colspan="2">網頁作品 (1/2)</th>
-                        <tr>
-                            <td>類型</td>
-                            <td>品牌網站 形象網站</td>
-                        </tr>
-                        <tr>
-                            <td>風格</td>
-                            <td>都市 極簡 俐落 沉靜</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="main-pic">
-                <img src="pic/website02/ws02_ph_1.png" alt="mockup-手機板">
-            </div>
-        </div>
-        <div class="item-group mobile">
-            <div class="item">
-                <div class="txt">
-                    <h4>Banner+理念</h4>
-                    <p>延伸主視覺風格，簡單配色襯托主體。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/iPhone 6-7-8 – 1.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>商店+新消息</h4>
-                    <p>商品頁面上層顯示圓形分類，下方為商品介紹。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/iPhone 6-7-8 – 2.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>故事+里程</h4>
-                    <p>大面積留白凸顯標語重要性，里程年表以較科技感風格呈現。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/iPhone 6, 7, 8 – 1.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>外部連結+關於</h4>
-                    <p>外部連結Icon使用與主視覺統一手繪風格。關於頁面採以滿版大圖方式留下印象。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/iPhone 6, 7, 8 – 2.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="top-container minor">
-            <div class="main-title">
-                <div class="txt">
-                    <h6>02.科技風格一頁式網站(桌機板畫面)</h6>
-                    <p>符合響應式網站設計RWD，將Banner主視覺文字替換為橫向滿版，大面積呈現網站主要畫面。 選單列亦由右側直向排列改為上方橫向排列。</p>
-                </div>
-            </div>
-            <div class="main-pic">
-                <img src="pic/website02/ws02_pc.png" alt="mockup-桌機板">
-            </div>
-        </div>
-        <div class="item-group desk-top">
-            <div class="item">
-                <div class="txt">
-                    <h4>理念+商店+新消息</h4>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/Web 1280 – 2.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>故事與里程+外部連結+關於</h4>
-                </div>
-                <div class="pic">
-                    <img src="pic/website02/Web 1280 – 3.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="btn-to-website">
-            <a href="https://lintina11.github.io/web-City-Style/" target="_blank">查看網頁切版實作</a>
-        </div>
-
-
-        <div class="top-container work-num2" id="work-num2">
-            <div class="main-title">
-                <div class="txt">
-                    <h6>03.植栽課程宣傳一頁式網站(手機板畫面)</h6>
-                    <p>活動、宣傳類型網站更適合較活潑的排版風格，讓整個網站更有活力與主題氛圍。此次範例試作植栽課程宣傳網站，運用插圖與較柔性的色調，文字區塊背景利用圓角剪裁為葉子形狀，更為柔和並呼應主題「療癒」感。</p>
-                    <table>
-                        <th colspan="2">網頁作品 (2/2)</th>
-                        <tr>
-                            <td>類型</td>
-                            <td>活動網站 宣傳網站</td>
-                        </tr>
-                        <tr>
-                            <td>風格</td>
-                            <td>溫暖 療癒 輕柔</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="main-pic">
-                <img src="pic/website03/ws03_ph.png" alt="mockup-手機板">
-            </div>
-        </div>
-        <div class="item-group mobile">
-            <div class="item">
-                <div class="txt">
-                    <h4>主題介紹+相簿</h4>
-                    <p>標題與區域框嘗試了較破格的設計，讓畫面更有生氣。先用滿版的課堂成品照片拼接吸引使用者目光，增加使用者停留率。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/iPhone X, XS, 11 Pro – 4.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>課程相關小知識</h4>
-                    <p>由於是課程相關宣傳網站，可以在網站中放入一些與主題相關加值章節，讓使用者在瀏覽同時有所收穫。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/iPhone X, XS, 11 Pro – 5.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>職人/講師介紹</h4>
-                    <p>活動主打「職人的療育植作課」，因此先介紹課程的師資群，切入活動亮點。  </p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/iPhone X, XS, 11 Pro – 2.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>課程種類</h4>
-                    <p>多樣的課程類型以卡片方式連續呈現。將課程照片放大，以圖片吸引目光，下方資訊卡顯示簡易課程資訊。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/iPhone X, XS, 11 Pro – 6.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>報名頁面</h4>
-                    <p>報名頁面獨立出來，以簡便俐落的方式讓使用者填寫欲報名的課程。</p>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/iPhone X, XS, 11 Pro – 3.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="top-container minor">
-            <div class="main-title">
-                <div class="txt">
-                    <h6>04.植栽課程宣傳一頁式網站(桌機版畫面)</h6>
-                    <p>在桌機版本中，原本滿版的照片相簿將可以做更多的畫面編排，而非只有統一大小。整體畫面大小雖將多項元素橫向排列，但除圖片部分，仍將資訊居中放置，避免使用者瀏覽時因同一畫面呈現太多資訊而失焦。</p>
-                </div>
-            </div>
-            <div class="main-pic">
-                <img src="pic/website03/ws03_pc.png" alt="mockup-桌機板">
-            </div>
-        </div>
-        <div class="item-group desk-top">
-            <div class="item">
-                <div class="txt">
-                    <h4>主題介紹+相簿+課程相關小知識</h4>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/Web 1280 – 4.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>職人/講師介紹+課程種類</h4>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/Web 1280 – 2.png" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="txt">
-                    <h4>報名頁面</h4>
-                </div>
-                <div class="pic">
-                    <img src="pic/website03/Web 1280 – 3.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="btn-to-website">
-            <a href="https://lintina11.github.io/web-Planting-Studio/" target="_blank">查看網頁切版實作</a>
         </div>
     </div>
-
+   
     <!-- 畢業專題 -->
     <div class="graduation-project" id="graduation-project">
         <div class="top-container">
@@ -519,6 +325,108 @@
     </div>
 
 
+
+
+    <!-- 平面設計 -->
+    <div class="graphic-design" id="graphic-design">
+        <div class="top-container">
+            <div class="main-title">
+                <div class="icon-group">
+                    <div class="icon">
+                        <img src="pic/illustrator_logo.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="pic/photoshop_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="title-txt">
+                    <h2>平面設計</h2>
+                    <h5>讓想像空間無限延伸</h5>
+                </div>
+                <div class="txt">
+                    <p>創意是被限制出來的，而設計是用理性表達的感性。透過平面設計，讓畫面不只是畫面！</p>
+                    <p>➤歡迎點選圖片進入Behance頁面</p>
+                </div>
+            </div>
+            <div class="main-pic"></div>
+        </div>
+        <div class="item-group">
+            <div class="container">
+                <div class="item">
+                    <div class="work sort">
+                        企業識別與商標設計
+                    </div>
+                    <a href="https://www.behance.net/gallery/114881669/_" target="_blank" class="work">
+                        <img src="pic/graphic/vi_01.png" alt="企業識別-茶蔀">
+                    </a>
+                    <a href="https://www.behance.net/gallery/117584863/VI-Taipei-Childrens-Amusement-Park" target="_blank" class="work">
+                         <img src="pic/graphic/vi_03.png" alt="企業識別-兒童新樂園">
+                    </a>
+                    <a href="https://www.behance.net/gallery/116743795/__-Do-Book" target="_blank" class="work">
+                        <img src="pic/graphic/vi_02.jpeg" alt="企業識別-讀步">
+                    </a>
+                    <a href="https://www.behance.net/gallery/116799987/LOGO__RABBit" target="_blank" class="work">
+                        <img src="pic/graphic/vi_04.png" alt="企業識別-兔子糖果屋">
+                    </a>
+                    <a href="https://www.behance.net/gallery/116466225/LOGO_design" target="_blank" class="work">
+                        <img src="pic/graphic/vi_05.png" alt="企業識別-design">
+                    </a>
+                    <div class="work sort">
+                        平面海報與EDM設計
+                    </div>
+                    <a href="https://www.behance.net/gallery/115330965/-Find-Mind" target="_blank" class="work">
+                        <img src="pic/graphic/po_01.png" alt="海報設計_Find Mind">
+                    </a>
+                    <a href="https://www.behance.net/gallery/115330901/_" target="_blank" class="work">
+                        <img src="pic/graphic/po_02.png" alt="海報設計_最接地氣的派對夥伴">
+                    </a>
+                    
+                    <div class="work">
+                        <img src="pic/graphic/po_04.jpg" alt="">
+                        <a href="https://compe.japandesign.ne.jp/result/toyama-poster-1-2019/">參考2019富山デザインフェア 石澤修一作品</a>
+                    </div>
+                    <a href="https://www.behance.net/gallery/115330709/_LOVE-MYSELF" target="_blank" class="work">
+                        <img src="pic/graphic/po_08.png" alt="">
+                    </a>
+                    <div class="work">
+                        <img src="pic/graphic/po_09.png" alt="">
+                    </div> 
+                    <div class="work">
+                        <img src="pic/graphic/po_03.jpg" alt="">
+                    </div> 
+                    <a href="https://www.behance.net/gallery/118426499/EDM-" target="_blank" class="work">
+                        <img src="pic/graphic/po_05.png" alt="">
+                    </a>
+                    <a href="https://www.behance.net/gallery/118426499/EDM-" target="_blank" class="work">
+                        <img src="pic/graphic/po_05a.png" alt="">
+                    </a>
+                    <div class="work">
+                        <img src="pic/graphic/po_07.jpg" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="pic/graphic/po_06.jpg" alt="">
+                    </div>
+                    <div class="work sort">
+                        其他設計作品
+                    </div>
+                    <div class="work">
+                        <img src="pic/graphic/oth01.jpg" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="pic/graphic/oth02.jpg" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="pic/graphic/oth03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
      <!-- 企劃 / 簡報設計 -->
     <div class="activities-pr" id="activities-pr">
         <div class="top-container">
@@ -541,75 +449,187 @@
                 <img src="pic/PR/pr.png" alt="企劃簡報設計主圖">
             </div>
         </div>
+
+
+
         <div class="case-group">
+
+
+            
             <div class="case">
                 <h6>企業年度CSR公關活動</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose1/投影片1.JPG" alt="">
-                    <img src="pic/PR/chose1/投影片3.JPG" alt="">
-                    <img src="pic/PR/chose1/投影片9.JPG" alt="">
-                    <img src="pic/PR/chose1/投影片11.JPG" alt="">
-                    <img src="pic/PR/chose1/投影片17.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose1/投影片1.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose1//投影片3.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose1/投影片9.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose1/投影片11.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose1/投影片17.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>    
                 </div>
             </div>
             <div class="case">
                 <h6>千人牧場家庭日</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose2/投影片4.JPG" alt="">
-                    <img src="pic/PR/chose2/投影片5.JPG" alt="">
-                    <img src="pic/PR/chose2/投影片30.JPG" alt="">
-                    <img src="pic/PR/chose2/投影片33.JPG" alt="">
-                    <img src="pic/PR/chose2/投影片34.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose2/投影片4.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose2/投影片5.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose2/投影片30.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose2/投影片33.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose2/投影片34.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>    
                 </div>
             </div>
             <div class="case">
                 <h6>廠區樂活家庭日</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose3/投影片3.JPG" alt="">
-                    <img src="pic/PR/chose3/投影片11.JPG" alt="">
-                    <img src="pic/PR/chose3/投影片14.JPG" alt="">
-                    <img src="pic/PR/chose3/投影片48.JPG" alt="">
-                    <img src="pic/PR/chose3/投影片49.JPG " alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose3/投影片3.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose3/投影片11.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose3/投影片14.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose3/投影片48.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose3/投影片49.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>    
                 </div>
             </div>
             <div class="case">
                 <h6>百人生態健走活動</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose4/投影片2.JPG" alt="">
-                    <img src="pic/PR/chose4/投影片13.JPG" alt="">
-                    <img src="pic/PR/chose4/投影片34.JPG" alt="">
-                    <img src="pic/PR/chose4/投影片37.JPG" alt="">
-                    <img src="pic/PR/chose4/投影片38.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose4/投影片2.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose4/投影片13.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose4/投影片34.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose4/投影片37.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose4/投影片38.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
                 </div>
             </div>
-            <!-- <div class="case">
+            <div class="case">
                 <h6>25周年年度系列活動</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose5/投影片3.JPG" alt="">
-                    <img src="pic/PR/chose5/投影片5.JPG" alt="">
-                    <img src="pic/PR/chose5/投影片20.JPG" alt="">
-                    <img src="pic/PR/chose5/投影片61.jpg" alt="">
-                    <img src="pic/PR/chose5/投影片86.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose5/投影片3.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose5/投影片5.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose5/投影片20.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose5/投影片61.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose5/投影片86.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
                 </div>
-            </div> -->
+            </div>
             <div class="case">
                 <h6>螢光戶外演唱晚會</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose6/投影片22.JPG" alt="">
-                    <img src="pic/PR/chose6/投影片25.JPG" alt="">
-                    <img src="pic/PR/chose6/投影片27.JPG" alt="">
-                    <img src="pic/PR/chose6/投影片33.JPG" alt="">
-                    <img src="pic/PR/chose6/投影片34.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose6/投影片22.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose6/投影片25.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose6/投影片27.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose6/投影片33.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose6/投影片34.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case">
+                <h6>時尚夜店慶功派對</h6>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose7/投影片2.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose7/投影片4.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose7/投影片10.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose7/投影片17.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose7/投影片23.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
                 </div>
             </div>
             <div class="case">
                 <h6>企業千人尾牙</h6>
-                <div class="pic">
-                    <img src="pic/PR/chose8/投影片17.JPG" alt="">
-                    <img src="pic/PR/chose8/投影片18.JPG" alt="">
-                    <img src="pic/PR/chose8/投影片19.JPG" alt="">
-                    <img src="pic/PR/chose8/投影片26.JPG" alt="">
-                    <img src="pic/PR/chose8/投影片28.JPG" alt="">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pic/PR/chose8/投影片17.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose8/投影片18.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose8/投影片19.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose8/投影片26.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pic/PR/chose8/投影片28.JPG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -617,10 +637,18 @@
 
     <div class="go-to-page">
         <a href="resume.html" class="box">
-            <h5>查看履歷</h5>
+            <h5>查看<br>履歷</h5>
         </a>
-        <p>感謝您的瀏覽</p>
+        <h6>感謝您的瀏覽</h6>
+    </div>
+    <div class="link">
+        <p>更詳細的設計理念在這裡 ➔
+            <a href="https://issuu.com/lintina0613/docs/portfolio_0417_d96086754a2ace" target="_blank">issue線上閱讀</a>
+            <a href="https://drive.google.com/file/d/1Psrc69g7la4XT58CIM_e4bCDtKmn4Naz/view?usp=sharing" target="_blank">Google drive下載</a> 
+        </p>
     </div>
 
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
 </body>
 </html>
