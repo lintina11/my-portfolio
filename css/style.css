@@ -354,13 +354,14 @@ h2+h5:after{
 
 
 .template .column-left .item:nth-child(1){
-	background: url(../pic/web-xmas.png) center / cover;	
+	background: url(../pic/web-xmas.png) center / cover;
 }
 .template .column-left .item:nth-child(2){
-	background: url(../pic/web-chabu.png) center / cover;
+	background: url(../pic/web-dobook.png) center / cover;
 }
 .template .column-right .item:nth-child(1){
-	background: url(../pic/web-dobook.png) center / cover;
+	
+	background: url(../pic/web-chabu.png) center / cover;
 }
 .template .column-right .item:nth-child(2){
 	background: url(../pic/web-city.png) center / cover;
