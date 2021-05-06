@@ -315,7 +315,7 @@ h2+h5:after{
 .template .main-pic{
 	width: 58.3%;
 	height: 40vw;
-	background-image: url(../pic/cover-wb.png);
+	background-image: url(../pic/cover-wb.jpg);
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -354,17 +354,17 @@ h2+h5:after{
 
 
 .template .column-left .item:nth-child(1){
-	background: url(../pic/web-xmas.png) center / cover;
+	background: url(../pic/web-xmas.jpg) center / cover;
 }
 .template .column-left .item:nth-child(2){
-	background: url(../pic/web-dobook.png) center / cover;
+	background: url(../pic/web-dobook.jpg) center / cover;
 }
 .template .column-right .item:nth-child(1){
 	
-	background: url(../pic/web-chabu.png) center / cover;
+	background: url(../pic/web-chabu.jpg) center / cover;
 }
 .template .column-right .item:nth-child(2){
-	background: url(../pic/web-city.png) center / cover;
+	background: url(../pic/web-city.jpg) center / cover;
 }
 
 .template .template-works .item .btn-group{
@@ -737,7 +737,7 @@ h2+h5:after{
 .graphic-design .main-pic{
 	width: 58.3%;
 	height: 40vw;
-	background-image: url(../pic/cover-gr.png);
+	background-image: url(../pic/cover-gr.jpg);
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
